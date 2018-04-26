@@ -1,5 +1,5 @@
 # Login Logger #
-This is a little script which can be called when a user logs in in his/her account on a server.</br> 
+This is a little script which can be called when a user logs in in his/her account on a server.<br/> 
 It then sends a message to ifttt, which in my case sends a message to messenger. You can use IFTTT webhooks to do this.
 check [ifttt webhooks](https://ifttt.com/maker_webhooks)
 
