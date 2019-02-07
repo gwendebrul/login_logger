@@ -7,7 +7,7 @@ check [ifttt webhooks](https://ifttt.com/maker_webhooks)
 clone this to a folder on your server, then put the path to this script in your .bash_profile and create a .env file in the script's folder.
 
 ## Environment variables ##
-The only environment variable you need to set, is the URL to your webhook on IFTTT.
+The only environment variable you need to set in the .env file is the URL to your webhook on IFTTT.
 ```bash
 IFTTT_URL : the url to your IFTTT webhook
 ```
