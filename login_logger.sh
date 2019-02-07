@@ -2,7 +2,7 @@
 
 trap '' INT TSTP
 
-source .env
+source ./.env
 IP=$(echo $SSH_CLIENT|grep -o -E "[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}")
 SERVERNAME=$(hostname)
 USERNAME=$(whoami)
